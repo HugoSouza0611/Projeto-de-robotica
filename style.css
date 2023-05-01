@@ -76,7 +76,11 @@ color: white;
     background-color: rgb(55, 85, 255);
 }
 
-.robótica-conteudo{
-    color: white;
+.robotica{
+    color: mediumturquoise;
     padding: 50px 0;
+}
+
+.robotica-texto-um{
+    color: white;
 }
