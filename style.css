@@ -105,6 +105,10 @@ color: white;
 }
 
 .foto-separação-scratch{
-    color: white;
+    color: mediumturquoise;
     padding: 24px 0;
+}
+
+.foto-scratch{
+    width: 25%;
 }
