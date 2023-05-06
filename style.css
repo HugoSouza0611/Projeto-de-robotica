@@ -121,3 +121,12 @@ color: white;
 .código-fonte{
     color: white
 }
+
+.link-video{
+color: rgb(38, 0, 255);
+padding: 24px 0;
+}
+
+.foto-tinkercad{
+width: 25%;
+}
