@@ -28,7 +28,7 @@ body{background-image: linear-gradient(#2f44bb,	#191970);}
 
 #escola{
   
-    color: white; 
+    color: rgb(255, 0, 0); 
     display: flex;
     justify-content: center;
 }
