@@ -76,6 +76,7 @@ color: white;
     background-color: rgb(55, 85, 255);
    position: absolute;
    bottom: 0;
+   display: flex;
 }
 
 .robotica{
