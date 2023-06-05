@@ -138,12 +138,11 @@ width: 25%;
     color: aliceblue;
 }
 .form{
-    align-items: center;
+    text-align: center;
 }
 .formulario{
-    width: 400px;
     padding: 30px;
-    border:1px solid #ccc;
+
 }
 
 .titulorec{
