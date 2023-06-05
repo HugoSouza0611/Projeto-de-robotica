@@ -13,13 +13,13 @@
   <header class="cabecalho">
     <img class="cabecalho-imagem" src="logocep.png" alt="logo cep start">
 
-  <ul class="cabecalho-lista">
+    <ul class="cabecalho-lista">
       <li class="cabecalho-lista-item"> <a href="#escola"> Home</a></li>
       <li class="cabecalho-lista-item"> <a href="#pessoas-trabalho"> Estudante </a></li>
-      <li class="cabecalho-lista-item"> <a href="programação.html"> programação </a></li>      
- </ul>
+      <li class="cabecalho-lista-item"> <a href="programação.html"> programação </a></li>
+    </ul>
 
- <main class="conteudo">
+    <main class="conteudo">
   </header>
 
   <section id="escola">
@@ -67,7 +67,8 @@
 
       <div class="estudante">
         <h2 class="pessoas-titulo"> Lian</h2>
-        <h3 class="pessoas-titulo3">Lian Christofer Scholtze Bertuola, tenho 16 anos, moro no Cajuru e estudo no CEP</h3>
+        <h3 class="pessoas-titulo3">Lian Christofer Scholtze Bertuola, tenho 16 anos, moro no Cajuru e estudo no CEP
+        </h3>
         <img class="foto" src="lian.webp" alt="foto lian" width="200px" height="200px">
       </div>
 
@@ -85,9 +86,32 @@
     </div>
   </section>
 
+  <form class="formulario" method="post"> 
+    <p> Envie uma mensagem preenchendo o formulário abaixo</p>
+    
+    <div class="field">
+        <label for="nome">Seu Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+    </div>
+   
+    <div class="field">
+        <label for="email">Seu E-Mail:</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+    </div>        
+   
+    <div class="field">
+        <label for="mensagem">Sua mensagem:</label>
+        <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+    </div>
+
+    <input type="submit" name="acao" value="Enviar">
+</form>
 
 
-  </section>
+
+
+
+
   <footer class="rodapé">
     <h3>Colégio Estadual do Paraná-CEP</h3>
     <h3>Para mais informações acesse https://www.cep.pr.gov.br/</h3>
