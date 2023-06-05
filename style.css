@@ -142,6 +142,7 @@ width: 25%;
     width: 400px;
     padding: 30px;
     border:1px solid #ccc;
+    display: flex;
 }
 
 .titulorec{
