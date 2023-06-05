@@ -137,12 +137,13 @@ width: 25%;
 .programação{
     color: aliceblue;
 }
-
+.form{
+    align-items: center;
+}
 .formulario{
     width: 400px;
     padding: 30px;
     border:1px solid #ccc;
-    align-items: center;
 }
 
 .titulorec{
