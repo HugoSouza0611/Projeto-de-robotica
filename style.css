@@ -206,7 +206,7 @@ input[type=submit]{
 }
 
 .imagens{
-    width: 15% ;
+    width: 10% ;
 }
 
 
@@ -215,7 +215,7 @@ input[type=submit]{
     list-style-type: none;
     width: calc(var(--total-items) * 100%);
     --total-items: 2;
-    width: 400%;
+    width: 200%;
     margin: 10px 0;
     padding: 0;
     position: relative;
