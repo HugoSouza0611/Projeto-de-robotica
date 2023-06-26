@@ -222,7 +222,7 @@ input[type=submit]{
     left: 0%;
     --selected-item: 0;
     position: relative;
-    left: calc(var(--selected-item) * 100%);
+    left: calc(var(--selected-item) * -100%);
     transition: left 0.4s cubic-bezier(0.680, -0.550, 0.265, 1.550);
   
     display: grid;
