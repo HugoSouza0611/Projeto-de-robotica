@@ -33,24 +33,22 @@
     <img class="escola-imagem" src="Hand-coding.png" alt="Professora Programando.">
   </section>
 
-  <div class="slide-show" >
-
-    <ul class="slides-list" >
-      <li class="slide" >
-        <img src="html.png" class="imagens">
+  <div class="slide-show">
+    <ul class="slides-list">
+      <li class="slide">
+        <img src="https://picsum.photos/300/300?image=8">
       </li>
-
-      <li class="slide" >
-        <img src="sinaleiro.robotica2.png"   class="imagens">
+      <li class="slide">
+        <img src="https://picsum.photos/300/300?image=0">
+      </li>
+      <li class="slide">
+        <img src="https://picsum.photos/300/300?image=6">
+      </li>
+      <li class="slide">
+        <img src="https://picsum.photos/300/300?image=1">
       </li>
     </ul>
   </div>
-
-
-
-  <input type="radio" class="slide-controller" name="slide" checked >
-<input type="radio" class="slide-controller" name="slide" checked >
-
 
   <section id="pessoas-trabalho">
     <h1 class="estudante-titulo">Estudantes</h1>
@@ -105,33 +103,56 @@
 
     </div>
   </section>
-<section class="form">
-  <form class="formulario" method="post" action="https://formspree.io/f/mwkjdbap"> 
-    <p class="titulorec"> Envie uma mensagem preenchendo o formulário abaixo</p>
-      
-    <div class="field">
+  <section class="form">
+    <form class="formulario" method="post" action="https://formspree.io/f/mwkjdbap">
+      <p class="titulorec"> Envie uma mensagem preenchendo o formulário abaixo</p>
+
+      <div class="field">
         <label class="titulorec" for="nome">Seu Nome:</label>
         <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
-    </div>
-   
-    <div class="field">
+      </div>
+
+      <div class="field">
         <label class="titulorec" for="email">Seu E-Mail:</label>
         <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
-    </div>        
-   
-    <div class="field">
+      </div>
+
+      <div class="field">
         <label class="titulorec" for="mensagem">Sua mensagem:</label>
         <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
-    </div>
+      </div>
 
-    <input type="submit" name="acao" value="Enviar">
-</form>
-</section>
-
-
+      <input type="submit" name="acao" value="Enviar">
+    </form>
+  </section>
 
 
 
+
+
+    // tell the embed parent frame the height of the content
+    if (window.parent && window.parent.parent){
+      window.parent.parent.postMessage(["resultsFrame", {
+        height: document.body.getBoundingClientRect().height,
+        slug: "hLacoye3"
+      }], "*")
+    }
+
+    // always overwrite window.name, in case users try to set it manually
+    window.name = "result"
+  <script>
+    // tell the embed parent frame the height of the content
+    if (window.parent && window.parent.parent){
+      window.parent.parent.postMessage(["resultsFrame", {
+        height: document.body.getBoundingClientRect().height,
+        slug: "hLacoye3"
+      }], "*")
+    }
+
+    // always overwrite window.name, in case users try to set it manually
+    window.name = "result"
+  
+  </script>
   <footer class="rodapé">
     <h3>Colégio Estadual do Paraná-CEP</h3>
     <h3>Para mais informações acesse https://www.cep.pr.gov.br/</h3>
