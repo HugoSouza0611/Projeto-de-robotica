@@ -36,35 +36,20 @@
   <section class="carrosel">
     <h2 class="corpo-titulo">Acompanhe as novidades:</h2>
     <div class="slide-show">
-        <ul class="slides-list" style="left: calc(-500%);">
-            <li class="slide">
-                <img class="redondo" src="./imgs carrossel/biotec.png">
-            </li>
-            <li class="slide">
-                <img class="redondo" src="./imgs carrossel/empreende.png">
-            </li>
-            <li class="slide">
-                <img class="redondo" src="./imgs carrossel/prog.png">
-            </li>
-            <li class="slide">
-                <img class="redondo" src="./imgs carrossel/robo.png">
-            </li>
-            <li class="slide">
-                <img class="redondo" src="./imgs carrossel/tags.png">
-            </li>
-            <li class="slide">
-                <img class="redondo" src="./imgs carrossel/rob2.png">
-            </li>
-        </ul>
+      <ul class="slides-list" style="left: calc(-500%);">
+        <li class="slide">
+          <img class="redondo" src="html.png">
+        </li>
+        <li class="slide">
+          <img class="redondo" src="sinaleiro.robotica2.png">
+        </li>
+      </ul>
     </div>
 
     <input type="radio" class="slide-controller" name="slide" checked="">
     <input type="radio" class="slide-controller" name="slide">
-    <input type="radio" class="slide-controller" name="slide">
-    <input type="radio" class="slide-controller" name="slide">
-    <input type="radio" class="slide-controller" name="slide">
-    <input type="radio" class="slide-controller" name="slide">
-</section>
+
+  </section>
   <section id="pessoas-trabalho">
     <h1 class="estudante-titulo">Estudantes</h1>
     <div class="tudo">
@@ -110,7 +95,28 @@
         <h3 class="pessoas-titulo3">Melyssa Saraiva Schelbauer, tenho 16 anos, moro em Colombo e estudo no CEP</h3>
         <img class="foto" src="mel.webp" alt="foto mel" width="200px" height="200px">
       </div>
+      <script>
+        const slideControllers = document.querySelectorAll('.slide-controller');
+        const slidesList = document.querySelector('.slides-list');
+        let currentSlide = 0;
 
+        // Adicionar um evento de clique para cada controlador de slide
+        slideControllers.forEach((controller, index) => {
+          controller.addEventListener('click', () => {
+            currentSlide = index;
+            slidesList.style.left = `calc(${index} * -100%)`;
+          });
+        });
+
+        // Função para alterar os slides automaticamente após 20 segundos
+        function autoChangeSlide() {
+          currentSlide = (currentSlide + 1) % slideControllers.length;
+          slideControllers[currentSlide].checked = true;
+          slidesList.style.left = `calc(${currentSlide} * -100%)`;
+        }
+        // Definir um temporizador para alternar automaticamente os slides a cada 20 segundos (20000 milissegundos)
+        setInterval(autoChangeSlide, 10000);
+      </script>
 
 
 
