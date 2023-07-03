@@ -95,26 +95,6 @@
         <h3 class="pessoas-titulo3">Melyssa Saraiva Schelbauer, tenho 16 anos, moro em Colombo e estudo no CEP</h3>
         <img class="foto" src="mel.webp" alt="foto mel" width="200px" height="200px">
       </div>
-      <script>
-        const slideControllers = document.querySelectorAll('.slide-controller');
-        const slidesList = document.querySelector('.slides-list');
-        let currentSlide = 0;
-
-        // Adicionar um evento de clique para cada controlador de slide
-        slideControllers.forEach((controller, index) => {
-          controller.addEventListener('click', () => {
-            currentSlide = index;
-            slidesList.style.left = `calc(${index} * -100%)`;
-          });
-        });
-
-        // Função para alterar os slides automaticamente após 20 segundos
-        function autoChangeSlide() {
-          currentSlide = (currentSlide + 1) % slideControllers.length;
-          slideControllers[currentSlide].checked = true;
-          slidesList.style.left = `calc(${currentSlide} * -100%)`;
-        }
-      </script>
 
 
 
