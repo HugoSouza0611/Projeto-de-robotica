@@ -258,6 +258,7 @@ input[type=submit] {
     position: absolute;
     width: 10px;
     z-index: 10;
+    border-radius: 50%;
 }
 
 .slider li:nth-child(1) label {
