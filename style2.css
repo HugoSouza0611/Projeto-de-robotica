@@ -1,5 +1,6 @@
  body {
         background-image: linear-gradient(#2f44bb, #191970);
+        color: rgb(247, 243, 243);
     }
 
     .cabecalho {
@@ -11,7 +12,5 @@
 
     .cabecalho-imagem {
         width: 8%;
-    
-    .body {
-        color: rgb(247, 243, 243);
     }
+   
