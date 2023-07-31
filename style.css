@@ -303,7 +303,6 @@
 
     .cabecalho {
         color: rgb(247, 243, 243);
-        display: flex;
         justify-content: space-around;
         align-items: center;
         padding: 24px 0;
@@ -320,7 +319,7 @@
     }
 
     .escola-imagem {
-        width: 25%;
+        width: 35%;
     }
 
     #escola {
@@ -331,7 +330,7 @@
     }
 
     .escola-div-conteudo {
-        width: 30%;
+        padding: 90px
     }
 
     .escola-titulo {
