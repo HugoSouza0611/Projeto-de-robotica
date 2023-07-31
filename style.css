@@ -305,6 +305,7 @@
         color: rgb(247, 243, 243);
         justify-content: space-around;
         align-items: center;
+        display: flex;
         padding: 24px 0;
     }
 
