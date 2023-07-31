@@ -816,6 +816,7 @@
         margin: auto;
         margin-top: 20px;
         position: relative;
+      transition-duration: 10s;
     }
 
     .slider li {
