@@ -9,6 +9,6 @@ while(contador<9) {
     Listadeteclas[0] .onclick = TocaSomPom;
 
      contador - contador + 1;
-console.log(contador)
+console.log(contador);
 }
   
