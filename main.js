@@ -1,1 +1,4 @@
-alert('oi, quer um programa<3?')
+.function Toca som Pom( ){
+    document. querySelector ( 'som_tecla_pom') .play ( );
+}
+document. querySelector( '.tecl_pom');
