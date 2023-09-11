@@ -1,4 +1,4 @@
-.function Toca som Pom( ){
+.function TocasomPom( ){
     document. querySelector ( 'som_tecla_pom') .play ( );
 }
-document. querySelector( '.tecl_pom');
+const Listadeteclas =
