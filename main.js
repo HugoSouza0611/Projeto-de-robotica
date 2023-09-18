@@ -1,6 +1,7 @@
 function TocaSomPom() {
     document.querySelector('#som-tecla-toim').play();
 }
+
 const Listadeteclas = document.querySelectorAll('.tecla');
 
 let contador = 0;
