@@ -15,7 +15,6 @@ console.log(lista);
 
 const idAudio = `#som-${lista}`;
 
-
     console.log(idAudio);
     Contador = Contador + 1;
     console.log(Contador);
