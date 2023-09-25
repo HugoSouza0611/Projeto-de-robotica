@@ -11,11 +11,7 @@ while (Contador < Listadeteclas.length)  {
         TocaSomPom(idAudio);
     }   
 const lista = Listadeteclas[Contador].classList[1];
-console.log(lista);
-
 const idAudio = `#som-${lista}`;
-
-    console.log(idAudio);
-    Contador = Contador + 1;
-    console.log(Contador);
+Contador = Contador + 1;
+   
 }
