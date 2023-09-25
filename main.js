@@ -8,7 +8,7 @@ let contador = 0;
 
 while (Contador < Listadeteclas.length)  {
     Listadeteclas[Contador].onclick = function ()   {
-        tocar(idAudio);
+        TocaSomPom(idAudio);
     };    
 const lista = Listadeteclas[contador].classList[1];
 console.log(lista);
