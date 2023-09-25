@@ -10,7 +10,7 @@ while (Contador < Listadeteclas.length)  {
     Listadeteclas[Contador].onclick = function ()   {
         TocaSomPom(idAudio);
     };    
-const lista = Listadeteclas[contador].classList[1];
+const lista = Listadeteclas[Contador].classList[1];
 console.log(lista);
 
 const idAudio = `#som-${lista}`;
