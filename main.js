@@ -13,7 +13,7 @@ while (Contador < Listadeteclas.length)  {
 const lista = Listadeteclas[contador].classList[1];
 console.log(lista);
 
-const idAudio = #som_${classe};
+const idAudio = `#som_${classe}`;
 
 
     console.log(idAudio);
