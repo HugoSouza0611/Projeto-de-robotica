@@ -4,7 +4,7 @@ function TocaSomPom(id) {
 
 const Listadeteclas = document.querySelectorAll('.tecla');
 
-let contador = 0;
+let Contador = 0;
 
 while (Contador < Listadeteclas.length)  {
     Listadeteclas[Contador].onclick = function ()   {
