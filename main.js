@@ -12,8 +12,5 @@ while (Contador < Listadeteclas.length)  {
     }   
 const lista = Listadeteclas[Contador].classList[1];
 const idAudio = `#som-${lista}`;
-console.log(lista);
-console.log(idAudio);
-console.log(Contador);
 Contador = Contador + 1;
 }
