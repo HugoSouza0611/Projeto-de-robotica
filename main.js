@@ -18,7 +18,7 @@ while (Contador < Listadeteclas.length) {
     Contador = Contador + 1;
     tecla.onkeydown = function (evento.key) {
         tecla.classList.add('ativa')
-        console.log(evento);
+        console.log(evento.code);
     }
     tecla.onkeyup = function ()  {
         tecla.classList.remove('ativa');
