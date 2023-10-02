@@ -884,7 +884,7 @@
     color:aliceblue;
     padding: 30px;
 }
-.tecla.ativa
+.tecla.ativa,
 .tecla:active{background-color: #ccc ;
 color: #191970;
 outline: none;}
@@ -893,7 +893,7 @@ outline: none;}
 box-shadow:1px 1px 10px;
 color: black;}
 
-.tecla: :active:focus,
+.tecla:active:focus,
 .tecla:active:focus{ box-shadow: 3px 3px 0;
     color:rgb(0,0,0);
 }
