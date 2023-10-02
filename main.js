@@ -16,6 +16,12 @@ while (Contador < Listadeteclas.length) {
     }
 
     Contador = Contador + 1;
+    tecla.onkeydown = function () {
+        tecla.classList.add('ativa')
+    }
+    tecla.onkeyup = function ()  {
+        tecla.classList.remove('ativa');
+    }
    tecla.classList.add('ativa')
    tecla.classList.remove('ativa')
 }
