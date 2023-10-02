@@ -17,5 +17,5 @@ while (Contador < Listadeteclas.length) {
 
     Contador = Contador + 1;
    tecla.classList.add('ativa')
-   tecla[5].classList.remove('ativa')
+   tecla.classList.remove('ativa')
 }
