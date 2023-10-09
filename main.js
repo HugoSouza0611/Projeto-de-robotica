@@ -4,7 +4,7 @@ function TocaSomPom(id) {
 
 const Listadeteclas = document.querySelectorAll('.tecla');
 
-let Contador = 0;
+
 
 for (let Contador = 0; Contador < Listadeteclas.length; Contador++) {
     const lista = Listadeteclas[Contador].classList[1];
@@ -15,7 +15,7 @@ for (let Contador = 0; Contador < Listadeteclas.length; Contador++) {
         TocaSomPom(idAudio);
     }
 
-    Contador = Contador + 1;
+  
     tecla.onkeydown = function (evento) {
         if (evento.code === 'Space'|| evento.code === 'Enter')
         tecla.classList.add('ativa')
