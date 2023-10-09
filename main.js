@@ -6,7 +6,7 @@ const Listadeteclas = document.querySelectorAll('.tecla');
 
 let Contador = 0;
 
-while (Contador < Listadeteclas.length) {
+for (Contador < Listadeteclas.length) {
     const lista = Listadeteclas[Contador].classList[1];
     const idAudio = `#som-${lista}`;
     const tecla = Listadeteclas[Contador];
@@ -17,6 +17,7 @@ while (Contador < Listadeteclas.length) {
 
     Contador = Contador + 1;
     tecla.onkeydown = function (evento) {
+        if (evento.code === 'Space'|| evento.code === 'Enter')
         tecla.classList.add('ativa')
         console.log(evento.code === 'Space'|| evento.code === 'Enter')
     }
