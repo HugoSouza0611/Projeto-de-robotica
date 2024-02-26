@@ -8,110 +8,18 @@
     <link rel="stylesheet" href="style2.css">
 </head>
 <body>
-  <header class="cabecalho">
-    <img class="cabecalho-imagem" src="logocep.png" alt="logo cep start">
 
-    <ul class="cabecalho-lista">
-      <li class="cabecalho-lista-item"> <a href="#escola"> Home</a></li>
-      <li class="cabecalho-lista-item"> <a href="#pessoas-trabalho"> Estudante </a></li>
-      <li class="cabecalho-lista-item"> <a href="programação.html"> programação </a></li>
-    </ul>
+  <p style="color: rgb(145, 253, 145);">
+  <h2>O que eu mais gosto em São Paulo</h2>
+  </p>
 
-    <input type="search" class="search-pesquisa" placeholder="O que você procura?">
+  <h3>Passear na Avenida Paulista</h3>
 
-    <main class="conteudo">
-  </header>
+  <p> Um dos principais centros financeiros da cidade, a Avenida Paulista também possui diversas opções de entreterimento. Endereço de Museu de Arte de São Paulo </p>
 
 
-<section id="Robótica">
-    <h2 class="robotica">SINALEIRO</h2>
-    <div class="robótica-conteudo">
-    <h3 class="robotica-texto-um">O trabalho foi desenvolvido com o intuito de simular um sinaleiro.
-      Nele, foram utilizados os seguintes equipamentos: </h3>
-     
-      <h3> -1 chromebook </h3> 
-      <h3> -3 led (vermelho, amarelo e verde) </h3> 
-      <h3> -1 protoboard </h3> 
-      <h3> -1 arduíno </h3> 
-      <h3> -1 cabo (UTP) </h3>  
-      <h3> -3 resistor 220 Ohms </h3> 
-      <h3> -jumpers macho-macho </h3> 
-     
-      <h3> -Método: Montamos a placa, conectamos ao computador, usamos o
-        site Tinkercad para fazermos uma simulação, programamos com
-        auxílio do Scratch e configuramos a placa para que ela funcione no
-        site Arduíno. </h3> 
-    </div>
-    
-      <h2 class="robotica-titulo"> Algoritmo: </h2>
-
-      <div class="robótica-conteudo2">
-      <h3>-Luz verde - liga </h3>
-      <h3>-Luz amarela - desliga  </h3>
-      <h3>-Luz vermelha - desliga </h3>
-      <h3>-Após 2 segundos </h3>
-      <h3>-Luz verde - desliga </h3>
-      <h3>-Lua amarela - liga </h3>
-      <h3>-Luz vermelha - desliga </h3> 
-      <h3>-Após 2 segundos </h3>
-      <h3>-Luz verde - desliga </h3>
-      <h3>-Luz amarela - desliga </h3>
-      <h3>-Luz vermelha - liga </h3>
-      <h3>-Espera 2 segundos </h3>
-      <h3>-Reinicia o processo </h3>
-  </div>
-
-  <div class="circuitos-div">
-  <h2 class="ciruitos">Montagem no Tinkercad e circuito:</h2>
-<h3>  -Protoboard> conectamos os led nas portas:</h3>
-<h3>  -Led vermelho: H2 e H3</h3>
-<h3>  -Led amarelo: H7 e H8</h3>
-<h3>  -Led verde: H13 e H14</h3>
-<h3>  -Ligamos 3 resistores nas portas</h3>
-<h3>  -1 resistor: porta 2G e 2E</h3>
-<h3>  -2 resistor: porta 7G e 7E</h3>
-<h3>  -3 resistor: porta 13G e 13E</h3>
-<h3>  -Os cabos ligamos nas portas:</h3>
-<h3>  -1 cabo: porta A2 até -2</h3>
-<h3>  -2 cabo: porta 7A até -7</h3>
-<h3>  -3 cabo: porta 13A até -13</h3>
-<h3>  -Ligamos por jumpers macho-macho o Protoboard no Arduíno:</h3>
-<h3>  -1 Jumper: Protoboard(porta -1) Arduíno(porta GND)</h3>
-<h3>  -2 Jumper: Protoboard (porta i3) Arduíno (porta 13)</h3>
-<h3>  -3 Jumper: Protoboard (i8)</h3>
-<h3>  -Arduíno (12)</h3>
-<h3>  -4 Jumper: Protoboard(i14)</h3>
-<h3>  -Arduíno (-11)</h3>
-<h3>  -Ligamos com um cabo(UTP) na porta de entrada do arduíno e ligamos no Chromebook.
-</div>
 
 
-<h2 class="foto-separação-scratch">Programação código-fonte em blocos:</h2>
-<img class="foto-scratch2" src="foto scratch.jpg" alt="foto-scratch">
-
-<div class="código-fonte">
-<h2 class="Programação-fonte">Programação código-fonte textual:</h2>
-<h3>-void setup()</h3>
-<h3>-{ pinMode(13, OUTPUT);</h3>
-<h3>-pinMode(12, OUTPUT);</h3>
-<h3>-pinMode(11, OUTPUT);}</h3>
-<h3>-void loop()</h3>
-<h3>-{digitalWrite(13, HIGH);</h3>
-<h3>-digitalWrite(12, LOW);</h3>
-<h3>-digitalWrite(11, LOW);</h3>
-<h3>-delay(3000); // Wait for 3000 millisecond(s)</h3>
-<h3>-digitalWrite(13, LOW);</h3>
-<h3>-digitalWrite(12, HIGH);</h3>
-<h3>-digitalWrite(11, LOW);</h3>
-<h3>-delay(2000); // Wait for 2000 millisecond(s)</h3>
-<h3>-digitalWrite(13, LOW);</h3>
-<h3>-digitalWrite(12, LOW);</h3>
-<h3>-digitalWrite(11, HIGH);</h3>
-<h3>-delay(5000); // Wait for 5000 millisecond(s)}</h3>
-</div>
-
-<h3 class="link-video">https://www.youtube.com/shorts/EoLA0Gf0Zaw</h3>
-<img class="foto-tinkercad" src="tinkercad.jpg" alt="foto-tinkercad">
 
 </body>
 </html>
