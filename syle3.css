@@ -2,3 +2,26 @@ body {
     background-color: rgb(79, 52, 199);
     color: rgb(255, 255, 255);
 }
+
+.cabecalho {
+    color: rgb(247, 243, 243);
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem {
+    width: 8%;
+}
+
+.cabecalho-lista-item {
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 15px;
+}
+
+.escola-imagem {
+    width: 35%;
+}
