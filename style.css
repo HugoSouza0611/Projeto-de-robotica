@@ -6,7 +6,7 @@
     }
 
     body {
-        background-image: linear-gradient(#2f44bb, #191970);
+        background-image:#2f44bb;
     }
 
     .cabecalho {
@@ -290,7 +290,7 @@
 
 }
 
-@media screen and (min-width: 604px)  and (max-width: 948px) {
+@media screen and (min-width: 604px) and (max-width: 948px) {
     * {
         margin: 0;
         padding: 0;
@@ -580,6 +580,7 @@
     }
 
 }
+
 @media screen and (max-width: 604px) {
     * {
         margin: 0;
@@ -875,27 +876,34 @@
     padding: 40px 30px;
     border-radius: 30px;
     box-shadow: 3px 3px 0 gray;
-    font-size: 1,75em;
+    font-size: 1, 75em;
     cursor: pointer;
 }
 
-.tecla { 
+.tecla {
     background-color: #191970;
-    color:aliceblue;
+    color: aliceblue;
     padding: 30px;
 }
+
 .tecla.ativa,
-.tecla:active{background-color: #ccc ;
-color: #191970;
-outline: none;}
+.tecla:active {
+    background-color: #ccc;
+    color: #191970;
+    outline: none;
+}
+
 .tecla.focus,
-.tecla:focus{ outline: none ;
-box-shadow:1px 1px 10px;
-color: black;}
+.tecla:focus {
+    outline: none;
+    box-shadow: 1px 1px 10px;
+    color: black;
+}
 
 .tecla:active:focus,
-.tecla:active:focus{ box-shadow: 3px 3px 0;
-    color:rgb(0,0,0);
+.tecla:active:focus {
+    box-shadow: 3px 3px 0;
+    color: rgb(0, 0, 0);
 }
 
 
@@ -903,6 +911,6 @@ color: black;}
 
 
 
-span{
-    color:purple
+span {
+    color: purple
 }
