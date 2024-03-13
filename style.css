@@ -897,3 +897,12 @@ color: black;}
 .tecla:active:focus{ box-shadow: 3px 3px 0;
     color:rgb(0,0,0);
 }
+
+
+
+
+
+
+span{
+    color:purple
+}
