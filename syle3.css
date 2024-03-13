@@ -6,6 +6,8 @@
 
 body {
     background-image: linear-gradient(#2f44bb, #191970);
+    height: 60em;
+    color: white;
 }
 
 .cabecalho {
@@ -13,7 +15,6 @@ body {
     justify-content: space-around;
     align-items: center;
     display: flex;
-    flex-direction: column;
     padding: 24px 0;
 }
 
