@@ -9,7 +9,7 @@ while (nomeUsuario == ''){
     nomeUsuario = prompt ('Qual o seu nome?');
 }
 
-if (nomeUsario == null) {
+if (nomeUsuario == null) {
     texto.textContent = 'Usuário';
 } else {
     texto.textContent = nomeUsuario;
