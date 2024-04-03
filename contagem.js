@@ -1,0 +1,1 @@
+const baconx = document.querySelectorAll('.botao');
