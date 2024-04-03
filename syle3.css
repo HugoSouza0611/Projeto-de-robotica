@@ -42,3 +42,10 @@ body {
     font-size: medium;
     padding: 20px;
 }
+
+
+.ativo{
+background-color: black;
+color: white;
+border-bottom: 3px solid rgb(255, 0, 0);
+}
