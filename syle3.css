@@ -31,6 +31,7 @@ body {
 }
 
 .contagem{
-    color:rgb(1, 180, 135)
+    color:rgb(1, 180, 135);
     padding: 20px 0;
+    text-align: center;
 }
