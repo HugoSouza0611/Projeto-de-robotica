@@ -49,3 +49,19 @@ background-color: black;
 color: rgb(245, 230, 230);
 border-bottom: 3px solid rgb(255, 255, 255);
 }
+
+
+.aba-conteudo{
+    display: block;
+    color: black;
+}
+
+.ativa {
+    display: block;
+color:black;
+}
+
+.nomes{ 
+    color:aqua;
+    font: size 22px;
+}
