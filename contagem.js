@@ -13,4 +13,4 @@ for(let i = 0; i < baconx.length; i++){
 botoes[i].classList.add('ativo');
 textos[i].classList.add ('ativa');
 }
-  consst contadores= document.querySelectorAll('.coontador');
+  const contadores= document.querySelectorAll('.coontador');
