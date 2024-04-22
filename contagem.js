@@ -23,7 +23,7 @@ const tempoObjetivo2 = new Date('2024-05-30T00:00:00');
 const tempoObjetivo3 = new Date('2024-06-30T00:00:00');
 const tempoObjetivo4 = new Date('2024-12-30T00:00:00');
 
-let tempos = [tempoObjetivo1,tempoObjetivo2,tempoObjetivo3,tempoObjetivo4];
+let tempos = [tempoObjetivo1, tempoObjetivo2, tempoObjetivo3, tempoObjetivo4];
 for( let i =0; i< contadores.length; i++){
   contadores[i].textContent = CalculaTempo( tempos[i]);
 }
@@ -44,5 +44,5 @@ hora %= 24;
 
 
  
-return dias + " dias "+ hora + " horas " + minutos + " ";
+return dias + " dias "+ hora + " horas " + minutos + " minutos "+ segundos+ " segundos";
 }
