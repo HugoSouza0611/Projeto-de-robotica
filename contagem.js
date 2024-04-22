@@ -18,7 +18,7 @@ for (let i = 0; i < baconx.length; i++) {
 }
 
 const contadores = document.querySelectorAll('.contador');
-const tempoObjetivo1 = new Date ('2024-04-30T00:00:00');
+const tempoObjetivo1 = new Date('2024-04-30T00:00:00');
 
 let Tempoatual; new Date();
 let tempoFinal = tempoObjetivo1 - Tempoatual;
