@@ -27,7 +27,7 @@ let tempos = [tempoObjetivo1,tempoObjetivo2,tempoObjetivo3,tempoObjetivo4];
 for( let i =0; i< contadores.length; i++){
   contadores[i].textContent = CalculaTempo( tempos[i]);
 }
-function CalculaTempo (tempoObjetiv:any): String
+
 
 function CalculaTempo(tempoObjetivo){
 let Tempoatual = new Date();
