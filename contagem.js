@@ -15,21 +15,21 @@ for (let i = 0; i < baconx.length; i++) {
   baconx[i].classList.add('ativo');
   textos[i].classList.add('ativa');
 }
-const contadores = document.querySelectorAll('.coontador');
+const contadores = document.querySelectorAll('.contador');
 const tempoObjetivo1 = new Date ('2024-04-30T00:00:00');
 
 let Tempoatual; new Date();
 let tempoFinal = tempoObjetivo1 - Tempoatual;
-let segudos = Math.floor(tempoFinal / 1000);
+let segundos = Math.floor(tempoFinal / 1000);
 let minutos = Math.floor(segundos / 60);
-let hora = Math.floor(minutos / 60;
-let dias = Math.floor(horas / 24);
+let hora = Math.floor(minutos / 60);
+let dias = Math.floor(hora / 24);
 
-segudos %= 60;
+segundos %= 60;
 minutos %= 60;
-horas %= 24;
+hora %= 24;
 
 
 
 
-contadores[0].textContent = dias + "dias"+ horas + "horas" + minutos;
+contadores[0].textContent = dias + "dias"+ hora + "horas" + minutos;
