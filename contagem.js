@@ -1,4 +1,4 @@
-const baconx = document.querySelectorAll('.objetivos ');
+const baconx = document.querySelectorAll('.botao ');
 const textos = document.querySelectorAll('.aba-conteudo');
 
 
@@ -18,7 +18,7 @@ for (let i = 0; i < baconx.length; i++) {
 }
 
 const contadores = document.querySelectorAll(".contador");
-const tempoObjetivo1 = new type(arguments); Date('2024-04-30T00:00:00');
+const tempoObjetivo1 = new type(arguments); new  Date('2024-04-30T00:00:00');
 const tempoObjetivo2 = new Date('2024-05-30T00:00:00');
 const tempoObjetivo3 = new Date('2024-06-30T00:00:00');
 const tempoObjetivo4 = new Date('2024-12-30T00:00:00');
