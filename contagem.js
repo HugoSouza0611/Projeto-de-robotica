@@ -12,9 +12,9 @@ for (let i = 0; i < baconx.length; i++) {
     baconx[j].classList.romove('ativo');
     textos[j].classList.remove('ativa');
   }
-  baconx[i].classList.add('ativo');
-  textos[i].classList.add('ativa');
 }
+baconx[i].classList.add('ativo');
+textos[i].classList.add('ativa');
 }
 
 const contadores = document.querySelectorAll(".contador");
