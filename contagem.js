@@ -1,4 +1,4 @@
-const baconx = document.querySelectorAll('.botao ');
+const baconx = document.querySelectorAll('.botao');
 const textos = document.querySelectorAll('.aba-conteudo');
 
 
